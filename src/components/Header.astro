@@ -1,0 +1,31 @@
+---
+import { Icon } from 'astro-icon'
+---
+
+<header class="py-4 sm:py-12">
+  <div class="flex">
+    <div class="flex">
+      <img class="hidden sm:block rounded-lg w-60 h-60 mr-8" src="/profile_picture.jpg" alt="profile picture">
+      <div class="flex flex-col py-0 sm:py-4">
+        <h1 class="text-xl sm:text-4xl mb-4">Yurii Chesniuk</h1>
+        <h2 class="text-lg sm:text-2xl">Senior JavaScript Engineer (Vue)</h2>
+
+        <ul class="mt-auto">
+          <li class="flex">
+            <Icon name="mdi:linkedin" class="mr-3 w-6 h-6 text-violet-800" />
+            <a target="_blank" href="https://www.linkedin.com/in/yurii-chesniuk-950819139/">Linkedin</a>
+          </li>
+          <li class="flex">
+            <Icon name="mdi:github" class="mr-3 w-6 h-6 text-violet-800" />
+            <a target="_blank" href="https://github.com/twisteriokovel">GitHub</a>
+          </li>
+          <li class="flex">
+            <Icon name="mdi:email-outline" class="mr-3 w-6 h-6 text-violet-800" />
+            <a href="mailto:twisterio.kovel@gmail.com">twisterio.kovel@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
