@@ -4,12 +4,12 @@
       "title": "Senior Javascript Developer (Vue)",
       "company": "Intellias",
       "period": "Jan 2022 - now",
-      "description": "Development of the investment platform for the private equity sector. There are a couple applications for investors, managers and support teams, some of them were legacy (was built in 2021), some of them were brand new applications.",
+      "description": "Development of the investment platform for the private equity sector. There are a couple of applications for investors, managers and support teams, some of them were legacy (were built in 2021), and some of them were brand new applications.",
       "responsibilities": [
-        "Designing and building of the application from the scratch",
-        "Working close with the design team and building the custom UI components library based on the design system",
+        "Designing and building the application from the scratch",
+        "Working closely with the design team and building the custom UI components library based on the design system",
         "Migration from the Vue 2 to Vue 3 + Typescript + Composition API",
-        "Working with Charts and Tables with big amount of data",
+        "Working with Charts and Tables with a big amount of data",
         "Working with Auth providers such as Firebase Auth and MSAL",
         "Accessibility and UX improvements"
       ],
@@ -93,10 +93,10 @@
       "responsibilities": [
         "Development frontend and backend parts of the software",
         "Integration of eCommerce solution to WordPress site",
-        "Creating of the admin panel for Laravel-based project",
-        "Creating of the Vue plugins for Laravel-based projects",
+        "Creating the admin panel for Laravel-based project",
+        "Creating the Vue plugins for Laravel-based projects",
         "Creating the interactive constructor for tickets operator",
-        "Creating of advanced animation",
+        "Creating advanced animation",
         "Pagespeed and SEO optimization for websites"
       ],
       "technologies": [
