@@ -2,8 +2,39 @@
   "data": [
     {
       "title": "Senior Javascript Developer (Vue)",
+      "company": "Proffiz",
+      "period": "May 2023 - now",
+      "description": "Development and support of the platform in the printing field. There are a couple of applications for customers, managers, and manufacturers. Each of these applications has a lot of UI features that help to configure, approve and create the products that the customer wants to create",
+      "responsibilities": [
+        "Developing and maintaining the applications",
+        "Working closely with the design team and building the custom UI components library based on the design tokens",
+        "Migration from the Vue 2 to Vue 3 + Typescript + Composition API",
+        "Working with BFF solution which is integrated with AWS Lambdas and other services",
+        "Working with complex product configuration solution"
+      ],
+      "technologies": [
+        "Vue 2/3",
+        "Composition API",
+        "TypeScript",
+        "Vuex",
+        "Pinia",
+        "VueRouter",
+        "SASS/SCSS",
+        "Vite",
+        "Webpack",
+        "Vitest",
+        "Jest",
+        "Vue test utils",
+        "Cypress",
+        "AWS Lambda",
+        "Restify",
+        "NodeJS"
+      ]
+    },
+    {
+      "title": "Senior Javascript Developer (Vue)",
       "company": "Intellias",
-      "period": "Jan 2022 - now",
+      "period": "Jan 2022 - May 2023",
       "description": "Development of the investment platform for the private equity sector. There are a couple of applications for investors, managers and support teams, some of them were legacy (were built in 2021), and some of them were brand new applications.",
       "responsibilities": [
         "Designing and building the application from the scratch",
@@ -119,15 +150,8 @@
       "company": "Startapp Digital Agency",
       "period": "Apr 2016 - Sep 2016",
       "description": "The client was a web design studio that required the help of an experienced engineering team to understand the domain deeply, solve problems efficiently, and take end-to-end responsibility for the quality and performance of the website development.",
-      "responsibilities": [
-        "Developing websites"
-      ],
-      "technologies": [
-        "HTML",
-        "CSS",
-        "jQuery",
-        "WordPress"
-      ]
+      "responsibilities": ["Developing websites"],
+      "technologies": ["HTML", "CSS", "jQuery", "WordPress"]
     }
   ]
 }
