@@ -67,8 +67,9 @@
       "title": "Middle Javascript Developer (Vue)",
       "company": "Ciklum",
       "period": "Dec 2020 - Dec 2021",
-      "description": "The client was the world's biggest food delivery company. I was part of the team focused on developing a self-service tool for restaurant partners to manage their businesses. The project scope spanned extending the existing functionality, maintenance, and migration from the old monolithic ASP.NET application to a new microservices approach with Vue.js applications. Our efforts included implementing an API, a web service, frontend and backend parts, a database, a mobile application, a web application, and a test automation framework.",
+      "description": "The client was the world's biggest food delivery company. I was part of the team focused on developing a self-service tool for restaurant partners to manage their businesses. The project scope spanned extending the existing functionality, maintenance, and migration from the old monolithic ASP.NET application and different separate apps written with AngularJS and React to a new microservices approach with Vue.js applications. Our efforts included implementing an API, a web service, frontend and backend parts, a database, a mobile application, a web application, and a test automation framework.",
       "responsibilities": [
+        "Maintaining the old monolithic application and other separated apps written with AngularJS and React",
         "Building micro frontends architecture",
         "Developing custom UI components library",
         "Creating restaurant menu manager with the ability to add, edit, remove and operate with menu products",
@@ -79,6 +80,7 @@
         "JavaScript",
         "TypeScript",
         "Vue 2",
+        "React",
         ".NET",
         "Vuex",
         "VueRouter",
