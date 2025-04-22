@@ -24,11 +24,39 @@
         "Webpack",
         "Vitest",
         "Jest",
+        "Nuxt 3",
         "Vue test utils",
         "Cypress",
         "AWS Lambda",
         "Restify",
         "NodeJS"
+      ]
+    },
+    {
+      "title": "Senior Vue JS Developer (part-time)",
+      "company": "NDA",
+      "period": "October 2023 - September 2024",
+      "description": "Development of the eCommerce platform which includes both client and admin applications",
+      "responsibilities": [
+        "Designing and developing the eCommerce platform from the scratch",
+        "Initial projects setup and configuration based on Nuxt 3 Framework",
+        "Working closely with the design team and building the UI components based on PrimeVue and design tokens",
+        "Building custom Nuxt modules",
+        "Working with REST API and WebSockets",
+        "Integration with payments providers (Stripe, PayPal, etc.)",
+        "Designing and developing of custom page builder"
+      ],
+      "technologies": [
+        "Vue 3",
+        "Nuxt 3",
+        "Composition API",
+        "TypeScript",
+        "Pinia",
+        "VueRouter",
+        "PrimeVue",
+        "Tailwind",
+        "Vite",
+        "Cypress"
       ]
     },
     {
