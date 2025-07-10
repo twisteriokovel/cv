@@ -1,0 +1,52 @@
+---
+interface Props {
+  title: string;
+  company: string;
+  description: string;
+  period: string;
+  responsibilities: string[];
+  technologies: string[];
+}
+
+const {
+  title,
+  company,
+  description,
+  period,
+  responsibilities,
+  technologies,
+} = Astro.props
+---
+
+<div class="mb-8">
+  <div class="flex flex-wrap justify-between mb-3">
+    <div>
+      <h4 class="text-xl mb-1">{ title }</h4>
+      <p class="text-sm text-gray-500">{ company }</p>
+    </div>
+
+    <p class="leading-7 w-full sm:w-auto">{ period }</p>
+  </div>
+
+
+  <h6 class="font-semibold mb-2">Project description:</h6>
+  <p class="mb-3">{ description }</p>
+
+  <h6 class="font-semibold mb-2">Responsibilities & achievements:</h6>
+  <ul class="mb-3 list-disc pl-5">
+    {
+      responsibilities.map(item => (
+        <li>{ item }</li>
+      ))
+    }
+  </ul>
+
+  <h6 class="font-semibold mb-2">Project technology stack:</h6>
+  <ul class="flex flex-wrap mb-3 gap-1">
+    {
+      technologies.map(item => (
+        <li class="border-1 bg-violet-800  border-violet-800 rounded-full inline-flex text-sm px-3 text-white">{ item }</li>
+      ))
+    }
+  </ul>
+</div>

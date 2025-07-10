@@ -1,0 +1,212 @@
+{
+  "data": [
+    {
+      "title": "Senior Javascript Developer (Vue)",
+      "company": "Proffiz",
+      "period": "May 2023 - now",
+      "description": "Development and support of the platform in the printing field. There are a couple of applications for customers, managers, and manufacturers. Each of these applications has a lot of UI features that help to configure, approve and create the products that the customer wants to create",
+      "responsibilities": [
+        "Developing and maintaining the applications",
+        "Working closely with the design team and building the custom UI components library based on the design tokens",
+        "Migration from the Vue 2 to Vue 3 + Typescript + Composition API",
+        "Working with BFF solution which is integrated with AWS Lambdas and other services",
+        "Working with complex product configuration solution"
+      ],
+      "technologies": [
+        "Vue 2/3",
+        "Composition API",
+        "TypeScript",
+        "Vuex",
+        "Pinia",
+        "VueRouter",
+        "SASS/SCSS",
+        "Vite",
+        "Webpack",
+        "Vitest",
+        "Jest",
+        "Nuxt 3",
+        "Vue test utils",
+        "Cypress",
+        "AWS Lambda",
+        "Restify",
+        "NodeJS"
+      ]
+    },
+    {
+      "title": "Senior Javascript Developer (part-time)",
+      "company": "NDA",
+      "period": "March 2025 - July 2025",
+      "description": "Development of the logistics application for the delivery optimizations",
+      "responsibilities": [
+        "Designing and developing the logistics application from scratch",
+        "Initial project setup and architecture setup",
+        "Working with REST API and GraphQL",
+        "Working with NodeJS (NestJS) on the Back-end side of the application"
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Zustand",
+        "GraphQL",
+        "React Router",
+        "Tailwind",
+        "Vite",
+        "Jest",
+        "NodeJS"
+      ]
+    },
+    {
+      "title": "Senior Vue JS Developer (part-time)",
+      "company": "Coretonomy",
+      "period": "October 2023 - September 2024",
+      "description": "Development of the eCommerce platform which includes both client and admin applications",
+      "responsibilities": [
+        "Designing and developing the eCommerce platform from the scratch",
+        "Initial projects setup and configuration based on Nuxt 3 Framework",
+        "Working closely with the design team and building the UI components based on PrimeVue and design tokens",
+        "Building custom Nuxt modules",
+        "Working with REST API and WebSockets",
+        "Integration with payments providers (Stripe, PayPal, etc.)",
+        "Designing and developing of custom page builder"
+      ],
+      "technologies": [
+        "Vue 3",
+        "Nuxt 3",
+        "Composition API",
+        "TypeScript",
+        "Pinia",
+        "VueRouter",
+        "PrimeVue",
+        "Tailwind",
+        "Vite",
+        "Cypress"
+      ]
+    },
+    {
+      "title": "Senior Javascript Developer (Vue)",
+      "company": "Intellias",
+      "period": "Jan 2022 - May 2023",
+      "description": "Development of the investment platform for the private equity sector. There are a couple of applications for investors, managers and support teams, some of them were legacy (were built in 2021), and some of them were brand new applications.",
+      "responsibilities": [
+        "Designing and building the application from the scratch",
+        "Working closely with the design team and building the custom UI components library based on the design system",
+        "Migration from the Vue 2 to Vue 3 + Typescript + Composition API",
+        "Working with Charts and Tables with a big amount of data",
+        "Working with Auth providers such as Firebase Auth and MSAL",
+        "Working with the with React app",
+        "Accessibility and UX improvements"
+      ],
+      "technologies": [
+        "Vue 2/3",
+        "Composition API",
+        "TypeScript",
+        "Vuex",
+        "Pinia",
+        "VueRouter",
+        "React",
+        "SASS/SCSS",
+        "Vite",
+        "Webpack",
+        "Vitest",
+        "Jest",
+        "Vue test utils",
+        "Playwright",
+        "Firebase",
+        "NodeJS",
+        "Microsoft Dataverse"
+      ]
+    },
+    {
+      "title": "Middle Javascript Developer (Vue)",
+      "company": "Ciklum",
+      "period": "Dec 2020 - Dec 2021",
+      "description": "The client was the lead­ing global on-demand delivery company. I was part of the team focused on developing a self-service tool for business owners to manage their businesses. The project scope spanned extending the existing functionality, maintenance, and migration from the old monolithic ASP.NET application and different separate apps written with AngularJS and React to a new microservices approach with Vue.js applications. Our efforts included implementing an API, a web service, frontend and backend parts, a database, a mobile application, a web application, and a test automation framework.",
+      "responsibilities": [
+        "Maintaining the old monolithic application and other separated apps written with AngularJS and React",
+        "Building micro frontends architecture",
+        "Developing custom UI components library",
+        "Creating restaurant menu manager with the ability to add, edit, remove and operate with menu products",
+        "Creating a new approach to all accessible elements in the application",
+        "General UI and UX improvements"
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "Vue 2",
+        "React",
+        ".NET",
+        "Vuex",
+        "VueRouter",
+        "Single SPA",
+        "Webpack",
+        "Jest",
+        "Vue test utils",
+        "Cypress",
+        "Tailwind"
+      ]
+    },
+    {
+      "title": "Front-end Developer (Vue)",
+      "company": "Polytech Software (ex Softheme)",
+      "period": "Oct 2018 - Dec 2020",
+      "description": "The client was the company who provided free-to-play and pay-to-play games for the world's leading betting providers. The main product we were working on was a scalable platform that we customized for our clients. This platform was for free-to-play questions games that gave players access to a significant portion of their content without paying and didn't require paying to continue playing. Engineering efforts were geared toward developing a minimum viable and full-featured product from scratch, extending the existing functionality, and maintaining it. During this time, we implemented an API, web services, frontend and backend parts, a database, native mobile and web apps, SDK, and a test automation framework.",
+      "responsibilities": [
+        "Development of frontend and backend parts of the software",
+        "Development of SPA",
+        "Updating legacy code latest technologies and code standards (packages updates, introducing ESLint & StyleLint",
+        "Refactoring of admin panel using new Vuetify framework",
+        "Integration of GraphQL",
+        "Integration of WebSockets based on Socket.IO provider "
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "Vue 2",
+        "Symphony",
+        "Laravel",
+        "Vuex",
+        "Vue Router",
+        "Webpack",
+        "Cypress",
+        "SASS/SCSS"
+      ]
+    },
+    {
+      "title": "Front-end Developer",
+      "company": "Mobios Studio",
+      "period": "Jul 2017 - Oct 2018",
+      "description": "The services were intended for a digital agency providing responsive websites with individual design, IOS application development, Search Engine Optimization, and technical support. During this period, I was working on developing small and medium projects based on CMS and PHP Framework Laravel. Our team contributed to developing a minimum viable and full-featured product from scratch, extending the existing functionality and maintenance. Project scope presupposed the development of an API, frontend and backend parts, a database, a mobile website, and a web app. ",
+      "responsibilities": [
+        "Development frontend and backend parts of the software",
+        "Integration of eCommerce solution to WordPress site",
+        "Creating the admin panel for Laravel-based project",
+        "Creating the Vue plugins for Laravel-based projects",
+        "Creating the interactive constructor for tickets operator",
+        "Creating advanced animation",
+        "Pagespeed and SEO optimization for websites"
+      ],
+      "technologies": [
+        "JavaScript",
+        "jQuery",
+        "PHP",
+        "Laravel",
+        "Vue 2",
+        "HTML",
+        "CSS",
+        "SASS/SCSS",
+        "Webpack",
+        "WordPress",
+        "OpenCart"
+      ]
+    },
+
+    {
+      "title": "HTML Coder",
+      "company": "Startapp Digital Agency",
+      "period": "Apr 2016 - Sep 2016",
+      "description": "The client was a web design studio that required the help of an experienced engineering team to understand the domain deeply, solve problems efficiently, and take end-to-end responsibility for the quality and performance of the website development.",
+      "responsibilities": ["Developing websites"],
+      "technologies": ["HTML", "CSS", "jQuery", "WordPress"]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+---
+import { Icon } from 'astro-icon'
+---
+
+<header class="py-4 sm:py-12">
+  <div class="flex justify-between">
+    <div class="flex">
+      <img class="hidden md:block rounded-lg w-60 h-60 mr-8" src="/cv/profile_picture.jpg" alt="profile picture">
+      <div class="flex flex-col py-0 sm:py-4">
+        <h1 class="text-2xl sm:text-4xl mb-2 sm:mb-4">Yurii Chesniuk</h1>
+        <h2 class="text-md sm:text-2xl mb-4">Senior JavaScript Engineer (Vue)</h2>
+
+        <ul class="mt-auto">
+          <li class="flex">
+            <Icon name="mdi:linkedin" class="mr-3 w-6 h-6 text-violet-800" />
+            <a target="_blank" href="https://www.linkedin.com/in/yurii-chesniuk-950819139/">Linkedin</a>
+          </li>
+          <li class="flex">
+            <Icon name="mdi:github" class="mr-3 w-6 h-6 text-violet-800" />
+            <a target="_blank" href="https://github.com/twisteriokovel">GitHub</a>
+          </li>
+          <li class="flex">
+            <Icon name="mdi:email-outline" class="mr-3 w-6 h-6 text-violet-800" />
+            <a href="mailto:twisterio.kovel@gmail.com">twisterio.kovel@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap items-start justify-end gap-2 py-0 sm:py-4">
+      <button
+        class="border-2 border-violet-800 font-medium rounded-full inline-flex py-2 px-2 sm:px-5 ease-in transition-all hover:bg-violet-800 hover:text-white"
+        data-action="share"
+      >
+        <Icon name="mdi:share-variant" class="w-6 h-6 currentColor" />
+        <span class="ml-3 hidden lg:inline-block">Share</span>
+      </button>
+
+      <button
+        class="border-2 border-violet-800 font-medium rounded-full inline-flex py-2 px-2 sm:px-5 ease-in transition-all hover:bg-violet-800 hover:text-white"
+        data-action="export"
+      >
+        <Icon name="mdi:file-pdf-box" class="w-6 h-6 currentColor"  />
+        <span class="ml-3 hidden lg:inline-block">Export to PDF</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  const shareBtn = document.querySelector('[data-action="share"]')
+  const exportBtn = document.querySelector('[data-action="export"]')
+
+  shareBtn.addEventListener('click', async () => {
+    const shareData = {
+      title: "Yurii Chesniuk CV",
+      text: "Yurii Chesniuk GitHub pages CV",
+      url: window.location.href,
+    }
+
+    try {
+      await navigator.share(shareData)
+    } catch (err) {
+      throw new Error(err)
+    }
+  })
+
+  exportBtn.addEventListener('click', async () => {
+    exportBtn.classList.add('opacity-0')
+    shareBtn.classList.add('opacity-0')
+
+    try {
+      await html2pdf().set({
+        margin: [0, 8],
+        filename: 'Yurii Chesniuk CV'
+      }).from(document.body).save()
+
+      exportBtn.classList.remove('opacity-0')
+      shareBtn.classList.remove('opacity-0')
+    } catch(err) {
+      throw new Error(err)
+    }
+  });
+</script>
+

@@ -1,0 +1,111 @@
+---
+import Badge from "../components/Badge.astro";
+import Header from "../components/Header.astro";
+import JobCard from "../components/JobCard.astro";
+import Title from "../components/Title.astro";
+import Layout from "../layouts/Layout.astro";
+
+import experience from "../../experience.json";
+
+const { data } = experience;
+
+const skillsList = [
+  "JavaScript",
+  "Typescript",
+  "ES6+",
+  "Vue (2/3)",
+  "Composition API",
+  "Vuex",
+  "Pinia",
+  "Vue Router",
+  "Nuxt (2/3)",
+  "React",
+  "Redux",
+  "Next.js",
+  "Webpack",
+  "Vite",
+  "npm",
+  "HTML",
+  "CSS",
+  "SASS/SCSS",
+  "Jest",
+  "Vitest",
+  "Cypress",
+  "CI/CD",
+  "Microfrontends",
+  "Git",
+];
+---
+
+<Layout title="Yurii Chesniuk CV">
+  <Header />
+
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-x-8">
+    <div class="col-span-2">
+      <Title text="General information" />
+
+      <p class="mb-8">
+        My name is Yurii and I live in Irpin, Ukraine. I am a skilled Front-end
+        developer with over 8 years of experience in building web applications.
+        My main focus is on Vue JS, but I have also experience (commercial and
+        non-commercial) with React and Angular and I am passionate about
+        creating clean and scalable web applications. My expertise spans various
+        industries including fintech, information technology and services,
+        eCommerce, gambling, gaming, food delivery, outsourcing, and consulting.
+        I have a proven track record of delivering high-quality solutions and
+        working collaboratively with teams to meet project goals. I have
+        experience working in multi-culturing teams where I gained good
+        communication skills and other knowledge from engineers all over the
+        world.
+      </p>
+
+      <Title text="Experience" />
+
+      {
+        data.map(
+          ({
+            title,
+            company,
+            period,
+            description,
+            responsibilities,
+            technologies,
+          }) => (
+            <JobCard
+              title={title}
+              company={company}
+              period={period}
+              description={description}
+              responsibilities={responsibilities}
+              technologies={technologies}
+            />
+          )
+        )
+      }
+    </div>
+    <div class="pb-8">
+      <Title text="Skills" />
+
+      <ul class="flex flex-wrap gap-2 mb-4">
+        {
+          skillsList.map((item) => (
+            <li>
+              <Badge text={item} />
+            </li>
+          ))
+        }
+      </ul>
+
+      <p class="mb-8"><span class="font-medium">English:</span> advanced</p>
+
+      <Title text="Education" />
+
+      <div>
+        <p class="text-lg mb-1">Odesa National Polytechnic University</p>
+        <p class="text-sm text-gray-500">
+          Bachelor in Information Security field
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>
